@@ -1,0 +1,144 @@
+body {
+  position: relative;
+  text-align: center;
+  background-color: #011F3F;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.correct-answer {
+  background-color: green;
+  opacity: 0.8;
+}
+
+.overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
+}
+
+.start-btn-again {
+  position: absolute;
+  /* top: 55%;
+  left: 43%; */
+  z-index: 2;
+  display: none;
+  width: 400px;
+  height: 77px;
+  background-color: #011F3F;
+  border: 5px solid #FEF2BF;
+  border-radius: 20px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.start-btn:hover {
+  background-color: #1b4470;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4rem;
+  color: #FEF2BF;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.start-btn {
+  margin-top: 40px;
+  width: 300px;
+  height: 77px;
+  background-color: #011F3F;
+  border: 5px solid #FEF2BF;
+  border-radius: 20px;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+}
+
+.start-btn-again:hover {
+  background-color: #1b4470;
+}
+
+.not-active {
+  background-color: #383e44;
+  border-color: #d3d2cc;
+  color: #d3d2cc;
+}
